@@ -3,7 +3,7 @@ import "./Docs.css";
 import { CodeBlock } from "../../documentation";
 
 export const Docs = () => {
-  const codeSnippet = `<link rel="stylesheet" type="text/css" href="https://attire-ui.vercel.app/src/App.css"></link>`;
+  const codeSnippet = `<link rel="stylesheet" type="text/css" href="https://web-widgets-v1.netlify.app/src/App.css"></link>`;
   return (
     <div className="docs">
       <div className="installation">
@@ -23,28 +23,28 @@ export const Docs = () => {
       <div className="components-list">
         <span className="title">All Components</span>
         <ul className="list">
-          <Link>
+          <Link to="/docs/avatar">
             <li>Avatar</li>
           </Link>
-          <Link>
+          <Link to="/docs/alert">
             <li>Alert</li>
           </Link>
-          <Link>
+          <Link to="/docs/badge">
             <li>Badge</li>
           </Link>
-          <Link>
+          <Link to="/docs/button">
             <li>Button</li>
           </Link>
-          <Link>
+          <Link to="/docs/heading">
             <li>Heading</li>
           </Link>
-          <Link>
+          <Link to="/docs/card">
             <li>Card</li>
           </Link>
-          <Link>
+          <Link to="/docs/text">
             <li>Text</li>
           </Link>
-          <Link>
+          <Link to="/docs/image">
             <li>Image</li>
           </Link>
         </ul>
