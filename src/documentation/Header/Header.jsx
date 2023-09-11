@@ -1,12 +1,37 @@
 import "./Header.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { FaGithub } from "../../utils/icons";
+import { useState } from "react";
 
 export const Header = () => {
+  const navigate = useNavigate();
+  const [searchInput, setSearchInput] = useState("");
+
   const activeStyles = ({ isActive }) => ({
     color: isActive ? "#8553fa" : "inherit",
     fontWeight: isActive ? "500" : "",
   });
+
+  const components = [
+    "avatar",
+    "alert",
+    "badge",
+    "button",
+    "card",
+    "heading",
+    "image",
+    "text",
+  ];
+
+  const handleSearchClick = () => {
+    if (components.includes(searchInput.toLowerCase())) {
+      navigate(`/docs/${searchInput.toLowerCase()}`);
+    } else {
+      alert("Oops, no such component found.");
+    }
+    setSearchInput("");
+  };
+
   return (
     <div className="nav">
       <div className="nav-left">
@@ -16,8 +41,13 @@ export const Header = () => {
       </div>
       <div className="nav-middle">
         <div className="searchbar">
-          <input type="text" placeholder="Search for component..." />
-          <button>Search</button>
+          <input
+            type="text"
+            placeholder="Search for component..."
+            value={searchInput}
+            onChange={(e) => setSearchInput(e.target.value)}
+          />
+          <button onClick={handleSearchClick}>Search</button>
         </div>
       </div>
       <div className="nav-right">
