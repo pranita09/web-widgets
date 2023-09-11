@@ -1,9 +1,54 @@
+import { Link } from "react-router-dom";
 import "./Docs.css";
+import { CodeBlock } from "../../documentation";
 
 export const Docs = () => {
+  const codeSnippet = `<link rel="stylesheet" type="text/css" href="https://attire-ui.vercel.app/src/App.css"></link>`;
   return (
-    <>
-      <h1>Docs</h1>
-    </>
+    <div className="docs">
+      <div className="installation">
+        <span className="title">Installation</span>
+        <div className="install-guide">
+          <p>
+            <span>WebWidgets</span> provides a variety of CSS components that
+            will make your design development faster and easier. To use it add
+            the following link in the <code>head</code> tag of your{" "}
+            <code>HTML</code>.
+          </p>
+          <div>
+            <CodeBlock codeString={codeSnippet}></CodeBlock>
+          </div>
+        </div>
+      </div>
+      <div className="components-list">
+        <span className="title">All Components</span>
+        <ul className="list">
+          <Link>
+            <li>Avatar</li>
+          </Link>
+          <Link>
+            <li>Alert</li>
+          </Link>
+          <Link>
+            <li>Badge</li>
+          </Link>
+          <Link>
+            <li>Button</li>
+          </Link>
+          <Link>
+            <li>Heading</li>
+          </Link>
+          <Link>
+            <li>Card</li>
+          </Link>
+          <Link>
+            <li>Text</li>
+          </Link>
+          <Link>
+            <li>Image</li>
+          </Link>
+        </ul>
+      </div>
+    </div>
   );
 };

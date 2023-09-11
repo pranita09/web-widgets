@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Code+Pro&display=swap");
 
 * {
   box-sizing: border-box;
@@ -21,6 +21,7 @@ body {
   --white: #fff;
   --bg-color: #ebebeb;
   --bg-secondary: #c0c0c0;
+  --bg-ternary: #cfcfcf;
 
   --black: #000;
   --text-color: #1e1e1e;

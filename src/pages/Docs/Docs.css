@@ -1,0 +1,53 @@
+.docs {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.docs .title {
+  font-size: 1.6rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.installation .install-guide {
+  padding: 1.8rem 1rem;
+}
+
+.installation .install-guide p span {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.installation .install-guide p code {
+  background-color: var(--bg-secondary);
+  padding: 0 0.25rem;
+  font-size: inherit;
+  font-family: "Source Code Pro", monospace;
+}
+
+.installation .install-guide div {
+  margin-top: 1rem;
+}
+
+.components-list .list {
+  list-style: none;
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.15rem;
+}
+
+.components-list .list li {
+  border-radius: var(--border-radius);
+  background-color: var(--bg-ternary);
+  text-align: center;
+  padding: 0.6rem;
+}
+
+.components-list .list li:hover {
+  cursor: pointer;
+  background-color: var(--bg-secondary);
+}
