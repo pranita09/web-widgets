@@ -1,9 +1,9 @@
-import styles from "./home.module.css";
+import "./Home.css";
 
 export const Home = () => {
   return (
     <>
-      <h1 className={styles.header}>Home</h1>
+      <h1 className="header">Home</h1>
     </>
   );
 };

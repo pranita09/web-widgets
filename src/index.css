@@ -6,3 +6,51 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+:root {
+  --primary-color: #8553fa;
+  --primary-hover: #7942fa;
+  --primary-disabled: #c4b5fb;
+
+  --white: #fff;
+  --bg-color: #ebebeb;
+  --bg-secondary: #c0c0c0;
+
+  --black: #000;
+  --text-color: #1e1e1e;
+  --text-secondary: #2e2e2e;
+
+  --border-radius: 0.25rem;
+
+  --status-online: #00af00;
+  --status-offline: #808080;
+  --status-dnd: #ff0000;
+
+  --success-bg: #a3ff9b;
+  --success-color: #2bd825;
+  --success-hover: #17cf11;
+  --warning-bg: #fcf086;
+  --warning-color: #fdcf00;
+  --warning-hover: #f0d800;
+  --danger-bg: #ff9d9d;
+  --danger-color: #ff2c2c;
+  --danger-hover: #ee1e1e;
+
+  --heading-1: 48px;
+  --heading-2: 32px;
+  --heading-3: 24px;
+  --heading-4: 16px;
+  --heading-5: 8px;
+
+  --line-ht-1: 64px;
+  --line-ht-2: 40px;
+  --line-ht-3: 32px;
+  --line-ht-4: 24px;
+  --line-ht-5: 16px;
+}
