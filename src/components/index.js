@@ -8,3 +8,4 @@ export {
   IconButton,
   FloatingButton,
 } from "./Button/Button";
+export { Image, RoundImage } from "./Image/Image";
