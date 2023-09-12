@@ -7,10 +7,10 @@ import {
 import { ImageAvatar, TextAvatar } from "../../components";
 
 export const AvatarDoc = () => {
-  const imageAvatarCodeString = `<ImageAvatar srcImg={"https://images.pexels.com/photos/415829-9"} altText={"Sarah-Wilson"} dimension={"50px"} />
-<ImageAvatar srcImg={"https://images.pexels.com/photos/415829-9"} altText={"Sarah-Wilson"} dimension={"100px"} />
-<ImageAvatar srcImg={"https://images.pexels.com/photos/415829-9"} altText={"Sarah-Wilson"} dimension={"150px"} />
-<ImageAvatar srcImg={"https://images.pexels.com/photos/415829-9"} altText={"Sarah-Wilson"} dimension={"200px"} />`;
+  const imageAvatarCodeString = `<ImageAvatar srcImg="https://images.pexels.com/photos/415829-9" altText="Sarah-Wilson" dimension="50px" />
+<ImageAvatar srcImg="https://images.pexels.com/photos/415829-9" altText="Sarah-Wilson" dimension="100px" />
+<ImageAvatar srcImg="https://images.pexels.com/photos/415829-9" altText="Sarah-Wilson" dimension="150px" />
+<ImageAvatar srcImg="https://images.pexels.com/photos/415829-9" altText="Sarah-Wilson" dimension="200px" />`;
 
   const textAvatarCodeString = `<TextAvatar firstName="Sarah" lastName="Wilson" bgColor="#8553fa" dimension="25" />
 <TextAvatar firstName="Sarah" lastName="Wilson" bgColor="#8553fa" dimension="50" />

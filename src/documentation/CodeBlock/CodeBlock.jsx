@@ -12,11 +12,16 @@ export const CodeBlock = ({ codeString }) => {
       <SyntaxHighlighter
         customStyle={{
           padding: "2rem",
-          //   fontFamily: "Source Code Pro",
         }}
         language="jsx"
         style={nightOwl}
         wrapLongLines={true}
+        showLineNumbers={true}
+        codeTagProps={{
+          style: {
+            fontFamily: "monospace",
+          },
+        }}
       >
         {codeString}
       </SyntaxHighlighter>

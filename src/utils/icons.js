@@ -6,6 +6,9 @@ import {
   MdOutlineCheckCircle,
   MdWarningAmber,
   MdInfo,
+  MdNotifications,
+  MdEmail,
+  MdShoppingCart,
 } from "react-icons/md";
 
 export {
@@ -16,4 +19,7 @@ export {
   MdOutlineCheckCircle,
   MdWarningAmber,
   MdInfo,
+  MdNotifications,
+  MdEmail,
+  MdShoppingCart,
 };
