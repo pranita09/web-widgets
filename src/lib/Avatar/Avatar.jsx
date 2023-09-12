@@ -90,6 +90,7 @@ export const AvatarDoc = () => {
             dimension="100"
           />
         </ComponentContainer>
+        <div className="divider"></div>
       </div>
     </div>
   );
