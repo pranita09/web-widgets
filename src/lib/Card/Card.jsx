@@ -1,9 +1,13 @@
 import "./Card.css";
+import { Sidebar } from "../../documentation";
 
 export const CardDoc = () => {
   return (
-    <div>
-      <h1>Card Doc</h1>
+    <div className="container">
+      <Sidebar />
+      <div className="doc-container">
+        <h1>Card Doc</h1>
+      </div>
     </div>
   );
 };

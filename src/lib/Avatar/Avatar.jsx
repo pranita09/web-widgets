@@ -1,9 +1,13 @@
 import "./Avatar.css";
+import { Sidebar } from "../../documentation";
 
 export const AvatarDoc = () => {
   return (
-    <div>
-      <h1>Avatar Doc</h1>
+    <div className="container">
+      <Sidebar />
+      <div className="doc-container">
+        <h1>Avatar Doc</h1>
+      </div>
     </div>
   );
 };
