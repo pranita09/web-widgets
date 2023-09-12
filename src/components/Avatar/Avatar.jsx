@@ -10,10 +10,19 @@ export const ImageAvatar = (props) => {
   );
 };
 
-export const TextAvatar = () => {
+export const TextAvatar = (props) => {
+  const { firstName, lastName, bgColor, dimension } = props;
   return (
-    <div>
-      <img />
+    <div
+      className="avatar text-avatar"
+      style={{
+        width: `${dimension}`,
+        height: `${dimension}`,
+        backgroundColor: bgColor,
+        fontSize: `${dimension * 0.5}px`,
+      }}
+    >
+      {(firstName[0] + lastName[0]).toUpperCase()}
     </div>
   );
 };

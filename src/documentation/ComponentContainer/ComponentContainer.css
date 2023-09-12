@@ -1,15 +1,26 @@
 .component-container {
-  margin: 2rem 1rem;
-  padding: 0 * "";
+  /* margin: 2rem 1rem; */
+  /* padding: 0 * ""; */
 }
 
 .component-header {
-  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.component-header h2,
+.component-container h3 {
+  font-weight: 500;
+}
+
+.component-container h3 {
+  padding: 0.5rem 0;
 }
 
 .component-content {
   display: flex;
-  justify-content: center;
-  align-items: start;
-  padding: 2rem 1rem;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
 }

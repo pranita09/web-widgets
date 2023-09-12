@@ -1,7 +1,12 @@
-.section-header-container {
-  padding: 1rem;
+.section-header-containern {
+  /* padding: 1rem; */
+}
+
+.section-title {
+  padding: 0.25rem 0;
+  font-weight: 500;
 }
 
 .section-description {
-  font: 1.2rem;
+  font-size: 1.1rem;
 }

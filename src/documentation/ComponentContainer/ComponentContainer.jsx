@@ -15,6 +15,7 @@ export const ComponentContainer = ({
         <p>{description}</p>
       </div>
       <div className="component-content">{children}</div>
+      <h3>How to use {title} component?</h3>
       <CodeBlock codeString={codeString} />
     </div>
   );
