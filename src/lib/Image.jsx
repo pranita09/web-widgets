@@ -2,6 +2,7 @@ import { ComponentContainer, SectionHeader, Sidebar } from "../documentation";
 import { Image, RoundImage } from "../components";
 
 export const ImageDoc = () => {
+  document.title = "Image | WebWidgets";
   const respImageCodeString = `<Image 
       srcImg="https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?cs=srgb&dl=pexels-pixabay-147411.jpg&fm=jpg"
       altText="Landscape"

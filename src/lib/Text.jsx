@@ -2,6 +2,8 @@ import { SectionHeader, Sidebar, CodeBlock } from "../documentation";
 import { Text } from "../components";
 
 export const TextDoc = () => {
+  document.title = "Text | WebWidgets";
+
   const textCodeString = `<Text size="5xl">(5xl) In love with React & Next</Text>
 <Text size="4xl">(4xl) In love with React & Next</Text>
 <Text size="3xl">(3xl) In love with React & Next</Text>

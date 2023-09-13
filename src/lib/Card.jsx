@@ -18,6 +18,7 @@ const product = {
 };
 
 export const CardDoc = () => {
+  document.title = "Card | WebWidgets";
   const basicCardCodeString = `const product = {
       title: "Women Stylish Pencil Heel Sandal with Trendy Colour",
       imgSrc: "https://static.toiimg.com/thumb/msid-78364888,width-400,resizemode-4/78364888.jpg",

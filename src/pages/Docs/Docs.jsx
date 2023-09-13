@@ -3,6 +3,7 @@ import "./Docs.css";
 import { CodeBlock } from "../../documentation";
 
 export const Docs = () => {
+  document.title = "Docs | WebWidgets";
   const codeSnippet = `<link rel="stylesheet" type="text/css" href="https://web-widgets-v1.netlify.app/src/App.css"></link>`;
   return (
     <div className="docs">

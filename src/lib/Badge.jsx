@@ -4,6 +4,7 @@ import { MdNotifications, MdEmail, MdShoppingCart } from "../utils/icons";
 import { SectionHeader } from "../documentation";
 
 export const BadgeDoc = () => {
+  document.title = "Badge | WebWidgets";
   const iconBadgeCodeString = `<IconBadge count={5} iconSize={48}>
      <MdNotifications />
 </IconBadge>

@@ -2,10 +2,12 @@ import { Alert } from "../components";
 import { CodeBlock, SectionHeader, Sidebar } from "../documentation";
 
 export const AlertDoc = () => {
+  document.title = "Alert | WebWidgets";
+
   const alertCodeString = `<Alert status="error" message="Hey there, This is an error alert." />
 <Alert status="success" message="Hey there, This is a success alert." />
 <Alert status="warning" message="Hey there, This is a warning alert." />
-<Alert status="info" message="Hey there, this is an info." />`; 
+<Alert status="info" message="Hey there, this is an info." />`;
 
   return (
     <div className="container">

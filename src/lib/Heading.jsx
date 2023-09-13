@@ -2,6 +2,7 @@ import { SectionHeader, Sidebar, CodeBlock } from "../documentation";
 import { Heading } from "../components";
 
 export const HeadingDoc = () => {
+  document.title = "Heading | WebWidgets";
   const headingCodeString = `<Heading size="h1">(h1) This is a heading.</Heading>
 <Heading size="h2">(h2) This is a heading.</Heading>
 <Heading size="h3">(h3) This is a heading.</Heading>

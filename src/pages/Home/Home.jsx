@@ -3,6 +3,8 @@ import "./Home.css";
 
 export const Home = () => {
   const navigate = useNavigate();
+
+  document.title = "WebWidgets";
   return (
     <div className="home">
       <div className="description">

@@ -2,6 +2,7 @@ import { ComponentContainer, SectionHeader, Sidebar } from "../documentation";
 import { ImageAvatar, TextAvatar } from "../components";
 
 export const AvatarDoc = () => {
+  document.title = "Avatar | WebWidgets";
   const imageAvatarCodeString = `<ImageAvatar srcImg="https://images.pexels.com/photos/415829-9" altText="Sarah-Wilson" dimension="50px" />
 <ImageAvatar srcImg="https://images.pexels.com/photos/415829-9" altText="Sarah-Wilson" dimension="100px" />
 <ImageAvatar srcImg="https://images.pexels.com/photos/415829-9" altText="Sarah-Wilson" dimension="150px" />

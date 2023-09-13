@@ -15,6 +15,7 @@ import {
 } from "../utils/icons";
 
 export const ButtonDoc = () => {
+  document.title = "Button | WebWidgets";
   const solidButtonsCodeString = `<PrimaryButton bgColor="#8553fa">Primary</PrimaryButton>
 <PrimaryButton bgColor="#2bd825">Success</PrimaryButton>
 <PrimaryButton bgColor="#fdcf00">Warning</PrimaryButton>
