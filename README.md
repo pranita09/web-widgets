@@ -3,6 +3,7 @@
 [WebWidgets](https://web-widgets-v1.netlify.app/) - A ReactJS Component Library focused on developing resuable components.
 
 ## Preview
+![web-widgets-screenshot](https://github.com/pranita09/web-widgets/assets/66015794/f3830e44-46fc-4fe9-b927-56d2bd4f09e2)
 
 ## Components
 
