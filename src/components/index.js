@@ -10,3 +10,4 @@ export {
 } from "./Button/Button";
 export { Image, RoundImage } from "./Image/Image";
 export { Text } from "./Text/Text";
+export { Heading } from "./Heading/Heading";

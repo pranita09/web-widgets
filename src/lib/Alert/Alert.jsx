@@ -28,7 +28,7 @@ export const AlertDoc = () => {
           />
           <Alert status="info" message="Hey there, this is an info." />
         </div>
-        <h3>How to use Alert component?</h3>
+        <h3 className="code-heading">How to use Alert component?</h3>
         <CodeBlock codeString={alertCodeString} />
         <div className="divider"></div>
       </div>

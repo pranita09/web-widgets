@@ -33,7 +33,7 @@ export const TextDoc = () => {
           <Text size="sm">(sm) In love with React & Next</Text>
           <Text size="xs">(xs) In love with React & Next</Text>
         </div>
-        <h3>How to use Text component?</h3>
+        <h3 className="code-heading">How to use Text component?</h3>
         <CodeBlock codeString={textCodeString} />
         <div className="divider"></div>
       </div>

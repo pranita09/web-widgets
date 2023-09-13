@@ -25,7 +25,7 @@ a:-webkit-any-link {
   gap: 1rem;
 }
 
-.doc-container h3 {
+.doc-container .code-heading {
   font-weight: 500;
   padding: 1rem 0;
 }
