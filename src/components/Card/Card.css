@@ -1,7 +1,7 @@
 .card-wrapper {
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  max-width: 325px;
   margin: 1rem;
   height: max-content;
   border-radius: var(--border-radius);
@@ -52,6 +52,8 @@
   gap: 0.5rem;
 }
 
+/* card with badge */
+
 .card-w-badge > div {
   position: relative;
 }
@@ -64,4 +66,60 @@
   padding: 0.25rem 0.5rem;
   border-radius: 0 var(--border-radius) var(--border-radius) 0;
   color: var(--white);
+}
+
+/* card with dismiss */
+
+.card-w-dismiss > div {
+  position: relative;
+}
+
+.card-w-dismiss .card-dismiss {
+  display: block;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.card-dismiss:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* card with text overlay */
+
+.card-w-overlay {
+  position: relative;
+}
+
+.card-w-overlay .overlay-bg {
+  opacity: 0.4;
+}
+
+.card-w-overlay .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  padding: 0.3rem 1.25rem;
+  border-radius: var(--border-radius);
+  color: var(--white);
+  background-color: var(--text-color);
+}
+
+/* horizontal card */
+
+.card-horizontal .row {
+  display: flex;
+}
+
+.card-horizontal img {
+  width: 40%;
+}
+
+.card-horizontal .card-heading {
+  font-size: 1rem;
 }

@@ -11,4 +11,11 @@ export {
 export { Image, RoundImage } from "./Image/Image";
 export { Text } from "./Text/Text";
 export { Heading } from "./Heading/Heading";
-export { Card, CardWithBadge } from "./Card/Card";
+export {
+  Card,
+  CardWithBadge,
+  CardWithDismiss,
+  CardWithTextOverlay,
+  CardTextOnly,
+  HorizontalCard,
+} from "./Card/Card";

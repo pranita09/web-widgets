@@ -12,6 +12,7 @@ import {
   MdEmail,
   MdShoppingCart,
   MdArrowUpward,
+  MdCancel,
 } from "react-icons/md";
 
 export {
@@ -30,4 +31,5 @@ export {
   MdEmail,
   MdShoppingCart,
   MdArrowUpward,
+  MdCancel,
 };
