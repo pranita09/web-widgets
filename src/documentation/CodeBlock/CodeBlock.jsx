@@ -14,14 +14,9 @@ export const CodeBlock = ({ codeString }) => {
           padding: "2rem",
         }}
         language="jsx"
-        style={nightOwl}
+        style={{ ...nightOwl }}
         wrapLongLines={true}
         showLineNumbers={true}
-        codeTagProps={{
-          style: {
-            fontFamily: "monospace",
-          },
-        }}
       >
         {codeString}
       </SyntaxHighlighter>

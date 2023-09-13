@@ -2,7 +2,7 @@
 import "./Button.css";
 
 export const PrimaryButton = (props) => {
-  const { children, bgColor } = props;
+  const { children, bgColor = "#8553fa" } = props;
   return (
     <button
       className="btn"
@@ -16,14 +16,14 @@ export const PrimaryButton = (props) => {
 };
 
 export const SecondaryButton = (props) => {
-  const { children, bgColor } = props;
+  const { children, bgColor = "#8553fa" } = props;
   return (
     <button
       className="btn"
       style={{
         border: `2px solid ${bgColor}`,
         color: bgColor,
-        backgroundColor: "transparent",
+        backgroundColor: "white",
       }}
     >
       {children}
