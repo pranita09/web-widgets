@@ -16,7 +16,7 @@ export const AlertDoc = () => {
           description="An alert is used to convey a short, meaningful message without disrupting the user's flow. There are four types of alerts, success, warning, error and message."
         />
         <div className="divider"></div>
-        <div className="alerts-list">
+        <div className="list">
           <Alert status="error" message="Hey there, This is an error alert." />
           <Alert
             status="success"
