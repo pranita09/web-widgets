@@ -1,8 +1,40 @@
-# React + Vite
+# WebWidgets - Component Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[WebWidgets](https://web-widgets-v1.netlify.app/) - A ReactJS Component Library focused on developing resuable components.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Components
+
+WebWidgets contains the following components:
+
+- Avatar
+- Alert
+- Badge
+  - Badge on Icons
+  - Badge on Avatars
+- Button
+  - Primary Buttons
+  - Secondary Buttons
+  - Link Button
+  - Icon Button
+  - Floating Action Button
+- Card
+  - Vertical Card
+  - Card with Badge
+  - Card with Dismiss
+  - Card with Text Overlay
+  - Text only Card
+  - Horizontal Card
+  - Card with Shadow
+- Headings
+- Text
+- Image
+  - Responsive Image
+  - Round Image
+
+## Built with
+
+- ReactJS
+- Vanilla CSS
+- React-Syntax-Highlighter
