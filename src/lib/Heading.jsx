@@ -1,6 +1,5 @@
-import "./Heading.css";
-import { SectionHeader, Sidebar, CodeBlock } from "../../documentation";
-import { Heading } from "../../components";
+import { SectionHeader, Sidebar, CodeBlock } from "../documentation";
+import { Heading } from "../components";
 
 export const HeadingDoc = () => {
   const headingCodeString = `<Heading size="h1">(h1) This is a heading.</Heading>

@@ -1,23 +1,18 @@
-import "./Button.css";
-import {
-  ComponentContainer,
-  SectionHeader,
-  Sidebar,
-} from "../../documentation";
+import { ComponentContainer, SectionHeader, Sidebar } from "../documentation";
 import {
   FloatingButton,
   IconButton,
   LinkButton,
   PrimaryButton,
   SecondaryButton,
-} from "../../components";
+} from "../components";
 import {
   FaPaperPlane,
   SlCalender,
   FaPlus,
   MdArrowUpward,
   FaCheck,
-} from "../../utils/icons";
+} from "../utils/icons";
 
 export const ButtonDoc = () => {
   const solidButtonsCodeString = `<PrimaryButton bgColor="#8553fa">Primary</PrimaryButton>

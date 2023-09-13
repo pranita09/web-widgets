@@ -13,6 +13,10 @@ body {
   min-height: 100vh;
 }
 
+code {
+  font-family: "Source Code Pro", monospace;
+}
+
 :root {
   --primary-color: #8553fa;
   --primary-hover: #7942fa;
@@ -42,16 +46,4 @@ body {
   --danger-bg: #ff9d9d;
   --danger-color: #ff2c2c;
   --danger-hover: #ee1e1e;
-
-  --heading-1: 48px;
-  --heading-2: 32px;
-  --heading-3: 24px;
-  --heading-4: 16px;
-  --heading-5: 8px;
-
-  --line-ht-1: 64px;
-  --line-ht-2: 40px;
-  --line-ht-3: 32px;
-  --line-ht-4: 24px;
-  --line-ht-5: 16px;
 }

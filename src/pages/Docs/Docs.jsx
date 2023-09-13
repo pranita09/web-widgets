@@ -6,7 +6,7 @@ export const Docs = () => {
   const codeSnippet = `<link rel="stylesheet" type="text/css" href="https://web-widgets-v1.netlify.app/src/App.css"></link>`;
   return (
     <div className="docs">
-      <div className="installation">
+      {/* <div className="installation">
         <span className="title">Installation</span>
         <div className="install-guide">
           <p>
@@ -19,7 +19,8 @@ export const Docs = () => {
             <CodeBlock codeString={codeSnippet}></CodeBlock>
           </div>
         </div>
-      </div>
+      </div> */}
+
       <div className="components-list">
         <span className="title">All Components</span>
         <ul className="list">

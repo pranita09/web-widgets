@@ -1,6 +1,5 @@
-import "./Text.css";
-import { SectionHeader, Sidebar, CodeBlock } from "../../documentation";
-import { Text } from "../../components";
+import { SectionHeader, Sidebar, CodeBlock } from "../documentation";
+import { Text } from "../components";
 
 export const TextDoc = () => {
   const textCodeString = `<Text size="5xl">(5xl) In love with React & Next</Text>

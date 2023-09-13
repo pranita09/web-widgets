@@ -1,10 +1,5 @@
-import "./Image.css";
-import {
-  ComponentContainer,
-  SectionHeader,
-  Sidebar,
-} from "../../documentation";
-import { Image, RoundImage } from "../../components";
+import { ComponentContainer, SectionHeader, Sidebar } from "../documentation";
+import { Image, RoundImage } from "../components";
 
 export const ImageDoc = () => {
   const respImageCodeString = `<Image 

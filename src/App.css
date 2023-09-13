@@ -34,3 +34,19 @@ a:-webkit-any-link {
   font-weight: 500;
   padding: 1rem 0;
 }
+
+/* custom scrollbar */
+
+body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background: lightgray;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #7942fa;
+  border-radius: 3px;
+}

@@ -1,8 +1,7 @@
-import "./Badge.css";
-import { ComponentContainer, Sidebar } from "../../documentation";
-import { IconBadge, StatusBadge } from "../../components";
-import { MdNotifications, MdEmail, MdShoppingCart } from "../../utils/icons";
-import { SectionHeader } from "../../documentation";
+import { ComponentContainer, Sidebar } from "../documentation";
+import { IconBadge, StatusBadge } from "../components";
+import { MdNotifications, MdEmail, MdShoppingCart } from "../utils/icons";
+import { SectionHeader } from "../documentation";
 
 export const BadgeDoc = () => {
   const iconBadgeCodeString = `<IconBadge count={5} iconSize={48}>

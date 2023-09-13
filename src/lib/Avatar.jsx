@@ -1,10 +1,5 @@
-import "./Avatar.css";
-import {
-  ComponentContainer,
-  SectionHeader,
-  Sidebar,
-} from "../../documentation";
-import { ImageAvatar, TextAvatar } from "../../components";
+import { ComponentContainer, SectionHeader, Sidebar } from "../documentation";
+import { ImageAvatar, TextAvatar } from "../components";
 
 export const AvatarDoc = () => {
   const imageAvatarCodeString = `<ImageAvatar srcImg="https://images.pexels.com/photos/415829-9" altText="Sarah-Wilson" dimension="50px" />
@@ -16,6 +11,7 @@ export const AvatarDoc = () => {
 <TextAvatar firstName="Sarah" lastName="Wilson" bgColor="#8553fa" dimension="50" />
 <TextAvatar firstName="Sarah" lastName="Wilson" bgColor="#8553fa" dimension="75" />
 <TextAvatar firstName="Sarah" lastName="Wilson" bgColor="#8553fa" dimension="100" />`;
+
   return (
     <div className="container">
       <Sidebar />

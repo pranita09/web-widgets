@@ -1,9 +1,4 @@
-import "./Card.css";
-import {
-  ComponentContainer,
-  SectionHeader,
-  Sidebar,
-} from "../../documentation";
+import { ComponentContainer, SectionHeader, Sidebar } from "../documentation";
 import {
   Card,
   CardTextOnly,
@@ -11,7 +6,7 @@ import {
   CardWithDismiss,
   CardWithTextOverlay,
   HorizontalCard,
-} from "../../components";
+} from "../components";
 
 const product = {
   title: "Women Stylish Pencil Heel Sandal with Trendy Colour",
